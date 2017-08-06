@@ -1303,6 +1303,14 @@
 					border-bottom: 0;
 				}
 
+					#header nav ul li ul{
+						display: inline;
+					}
+
+					#header nav ul li ul li{
+						display: inline;
+					}	
+
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
 					}
