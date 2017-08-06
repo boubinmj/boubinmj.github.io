@@ -1318,6 +1318,12 @@
 							padding-left: 0;
 							border-left: solid 1px #ffffff;
 						}
+	
+										
+							#header nav ul li ul li:first-child{
+								border-left: 0;
+							
+							}
 
 							#header nav ul li ul li a{
 								display: inline;
