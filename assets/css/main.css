@@ -682,7 +682,7 @@
 
 		}
 
-/* List */
+/* List i*/
 
 	ol {
 		list-style: decimal;
@@ -1269,10 +1269,11 @@
 			}
 
 		#header nav ul {
-			display: -moz-flex;
+			/*display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
-			display: flex;
+			display: flex;*/
+			display: block;
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
