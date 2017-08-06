@@ -1314,6 +1314,10 @@
 
 					#header nav ul li ul li{
 						display: inline;
+					}
+
+					#header nav ul li ul li a{
+						display: inline
 					}	
 
 					#header nav ul li a:hover {
