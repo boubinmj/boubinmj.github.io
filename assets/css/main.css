@@ -1390,8 +1390,8 @@
 		}
  
 		.sub-menu li a {
-    			padding:10px 30px;
-    			display:block;
+    			padding: 0px;
+    			display: inline;
 		}
  
 		.sub-menu li a:hover, .sub-menu .current-item a {
