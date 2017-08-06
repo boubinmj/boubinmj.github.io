@@ -1282,7 +1282,7 @@
 		}
 
 			#header nav ul li {
-				display: block;
+				display: inline;
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
 			}
