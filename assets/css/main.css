@@ -1385,7 +1385,7 @@
 		}
  
 		.sub-menu li {
-    			display:block;
+    			display:inline;
     			font-size:16px;
 		}
  
