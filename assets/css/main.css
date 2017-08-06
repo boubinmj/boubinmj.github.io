@@ -1273,7 +1273,7 @@
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;*/
-			display: block;
+			display: inline;
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
