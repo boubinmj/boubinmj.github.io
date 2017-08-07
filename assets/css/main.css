@@ -1304,7 +1304,7 @@
 				}
 
 					#header nav ul li ul{
-						display: inline;
+						display: block;
 						margin-bottom: 0;
 						list-style: none;
 						width: 600px;
