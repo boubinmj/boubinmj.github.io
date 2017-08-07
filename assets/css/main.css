@@ -1330,8 +1330,8 @@
 							#header nav ul li ul li a{
 								display: block;
 								width: 15rem;
-								height: 2.75rem;
-								line-height: 2.75rem;
+								/*height: 2.75rem;*/
+								/*line-height: 2.75rem;*/
 								text-transform: uppercase;
 								letter-spacing: 0.2rem;
 								font-size: 0.8rem;
