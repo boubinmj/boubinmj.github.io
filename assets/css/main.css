@@ -682,7 +682,7 @@
 
 		}
 
-/* List i*/
+/* List */
 
 	ol {
 		list-style: decimal;
@@ -701,7 +701,7 @@
 	}
 
 		ul li {
-			padding-left: 10px;
+			padding-left: 0.5em;
 		}
 
 		ul.alt {
@@ -1269,20 +1269,18 @@
 			}
 
 		#header nav ul {
-			/*display: -moz-flex;
+			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
-			display: flex;*/
-			display: inline;
+			display: flex;
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px #ffffff;
-			border-radius: 0px;
+			border-radius: 4px;
 		}
 
 			#header nav ul li {
-				display: inline;
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
 			}
@@ -1292,51 +1290,16 @@
 				}
 
 				#header nav ul li a {
-					display: inline;
+					display: block;
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					/*padding: 0 1.25rem 0 1.45rem;*/
+					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
 				}
-
-					#header nav ul li ul{
-						display: block;
-						margin-bottom: 0;
-						list-style: none;
-						width: 100px;
-						padding-left: 0;
-						border: solid 1px #ffffff;
-						border-radius: 0px;
-					}
-
-
-						#header nav ul li ul li{
-							display: block;
-							padding-left: 0;
-							width: 150px;
-							/*border-left: solid 1px #ffffff;*/
-						}
-	
-										
-							#header nav ul li ul li:first-child{
-								border-left: 0;
-								display: block;
-							}
-
-							#header nav ul li ul li a{
-								display: block;
-								width: 15rem;
-								/*height: 2.75rem;*/
-								/*line-height: 2.75rem;*/
-								text-transform: uppercase;
-								letter-spacing: 0.2rem;
-								font-size: 0.8rem;
-								margin-right: 0;
-							}	
 
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
@@ -1361,45 +1324,6 @@
 			border-left: 0;
 		}
 
-		
-                #header nav li:hover .sub-menu {
-                        z-index:1;
-    			opacity:1;
-		}
- 
-		#header .sub-menu {
-    			width:160%;
-    			padding: 0px;
-    			position:absolute;
-    			top:100%;
-    			left:0px;
-    			z-index:-1;
-    			opacity:0;
-    			transition:opacity linear 0.15s;
-    			box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    			background:#2e2728;
-		}
-
-		.arrow {
-    			font-size:11px;
-    			line-height:0%;
-		}
- 
-		.sub-menu li {
-    			display:inline;
-    			font-size:16px;
-		}
- 
-		.sub-menu li a {
-    			padding: 0px;
-    			display: inline;
-		}
- 
-		.sub-menu li a:hover, .sub-menu .current-item a {
-    			background:#3e3436;
-		}
-
-		
 		body.is-article-visible #header {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
