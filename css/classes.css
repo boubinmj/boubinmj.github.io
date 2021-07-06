@@ -1,0 +1,16 @@
+.profile{
+	border: 5px solid #fff;
+	backround-color: #00f;
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.profile img {
+	width: 100%;
+}
+
+.profile p {
+	font: sans-serif;
+	text-align: center;
+}
