@@ -1,10 +1,10 @@
-ul {
+.menu ul {
 	list-style-type: none;
 	margin: 10;
 	padding: 100;
 }
 
-li{
+.menu li {
 	display: inline-block;
 }
 
@@ -17,7 +17,7 @@ li{
 }
 
 .profile img {
-	width: 100%;
+	width: 20.rem;
 }
 
 .profile p {
