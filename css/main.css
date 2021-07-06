@@ -13,11 +13,12 @@
 	backround-color: #00f;
 	padding: 0.5rem;
 	height: 200px;
-	width: 50%;
+	width: 200px;
 }
 
 .profile img {
-	width: 50%;
+	height: 180px;
+	width: 180%;
 }
 
 .profile p {
