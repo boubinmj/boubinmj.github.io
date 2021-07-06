@@ -17,16 +17,10 @@
 }
 
 .profile img {
-	width: 20.rem;
+	width: 20rem;
 }
 
 .profile p {
 	font: sans-serif;
 	text-align: center;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
