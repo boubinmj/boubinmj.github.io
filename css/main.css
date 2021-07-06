@@ -10,7 +10,7 @@
 
 .menu li {
 	display: inline-block;
-	margin:  10px 0;
+	margin:  100px;
 }
 
 .profile{
@@ -18,12 +18,12 @@
 	backround-color: #00f;
 	padding: 0.5rem;
 	height: 200px;
-	width: 200px;
+	width: 100%;
 }
 
 .profile img {
 	height: 180px;
-	width: 180%;
+	width: 180px;
 }
 
 .profile p {
