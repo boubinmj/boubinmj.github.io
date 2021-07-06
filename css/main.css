@@ -1,5 +1,7 @@
 .menu{
 	background-color: #f00;
+	height: 80px;
+	width: 98%;
 }
 
 .menu ul {
@@ -18,12 +20,12 @@
 	backround-color: #00f;
 	padding: 0.5rem;
 	height: 200px;
-	width: 100%;
+	width: 98%;
 }
 
 .profile img {
 	height: 180px;
-	width: 100%;
+	width: 180px;
 }
 
 .profile p {
