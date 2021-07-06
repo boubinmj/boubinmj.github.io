@@ -1,3 +1,7 @@
+.menu{
+	background-color: #f00;
+}
+
 .menu ul {
 	list-style-type: none;
 	margin: 10;
