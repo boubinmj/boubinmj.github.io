@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Matt Boubin - Resume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Resume</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Blog</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Publications</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<!--
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">START PAGE</h1>
+  <p class="w3-xlarge">Template by w3.css</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
+-->
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h2>Microcontroller Implementation of Support Vector Machine for Detecting Blood Glucose Levels Using Breath Volatile Organic Compounds</h2>
+      <h3><a href="docs/MDPI-sensors-2019.pdf">MDPI Sensors, 2019</a></h3>
+      <div class="w3-content">
+      <p class="w3-text-grey">This paper presents an embedded system-based solution for sensor arrays to estimate
+blood glucose levels from volatile organic compounds (VOCs) in a patient’s breath. Support vector
+machine (SVM) was trained on a general-purpose computer using an existing SVM library. A training
+model, optimized to achieve the most accurate results, was implemented in a microcontroller with
+an ATMega microprocessor. Training and testing was conducted using artificial breath that mimics
+known VOC footprints of high and low blood glucose levels. The embedded solution was able
+to correctly categorize the corresponding glucose levels of the artificial breath samples with 97.1%
+accuracy. The presented results make a significant contribution toward the development of a portable
+device for detecting blood glucose levels from a patient’s breath.</p>
+      </div>
+    </div>
+
+    <div class="w3-third w3-center">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      
+    </div>
+
+    <div class="w3-twothird">
+      <h2>EMI Diagnostics of Three Phase Inverters Using Machine Learning Algorithms</h2>
+      <h3><a href="docs/IEEE-ECCE-2018.pdf">IEEE ECCE, 2018</a></h3>
+
+      <p class="w3-text-grey">Electromagnetic interference (EMI) is often re-
+garded as a disturbance in electrical systems, and most research
+focuses on developing techniques to mitigate its impact. EMI is
+particularly problematic in many sensing applications, but there
+are circumstances when EMI can be used as the sensing tool. This
+paper describes a method to determine the health of the DC link
+capacitance in a three-phase inverter using EMI diagnostics. The
+proposed approach relies on changes in a capacitor's resonant
+frequency and impedance, which occur naturally as it ages, to
+predict its health. These parameters inﬂuence the conducted EMI
+measurements in a manner that is detectable. Through simulation
+and experimentation, it is demonstrated that this approach can
+detect changes in a capacitor's health via a machine learning
+algorithm that is trained to inverters EMI spectrum.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      
+    </div>
+
+    <div class="w3-twothird">
+      <h2>Smart wristband with integrated
+chemical sensors for detecting
+glucose levels using breath volatile
+organic compounds</h2>
+      <h3><a href="docs/SPIE.pdf">SPIE Smart Biological and Phisiological Sensing Technology, 2019</a></h3>
+
+      <p class="w3-text-grey">This paper presents a microcontroller-based solution to classify blood glucose levels using acetone and ethanol breath
+volatile organic compounds. Two metal oxide semiconductor-based chemical sensors able to detect acetone and ethanol
+at parts per million concentrations were used. The sensors were tested in a controlled setup with humidified air spiked
+with acetone and ethanol, mimicking human breath corresponding to low and high blood glucose groups. A support
+vector machine algorithm was trained and implemented in a microcontroller. In a real time-time test, the trained
+algorithm classified low and high blood glucose groups with 97% accuracy. Subsequently, a smart wristband prototype
+that integrates the two sensors was developed. An Arduino-based wearable microcontroller platform was used for its
+small formfactor and a low-power operation. The wristband is enclosed in a 3D printed housing and powered by an
+onboard 3.7 V 500 mAh rechargeable Li-ion battery. A smartphone app communicates with the wristband through
+Bluetooth, allows data visualization, and saves data in the cloud. The presented work makes a significant contribution
+towards the development of a wearable device for detecting blood glucose levels from a patient’s breath.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-bars w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
