@@ -21,3 +21,60 @@ body {
 .page {
   min-height: calc(100vh - 100px);
 }
+
+/* Home Page Layout */
+.home-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.home-content {
+  flex: 2;
+}
+
+.home-headshot {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.headshot-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bio-text {
+  line-height: 1.8;
+  color: #666;
+}
+
+.bio-text p {
+  margin-bottom: 1rem;
+}
+
+.bio-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .home-content {
+    flex: 1;
+  }
+
+  .home-headshot {
+    width: 100%;
+  }
+
+  .headshot-img {
+    max-width: 250px;
+  }
+}
