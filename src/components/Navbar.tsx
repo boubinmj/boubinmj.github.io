@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { FiCode, FiCoffee } from 'react-icons/fi'
+import { FiCoffee } from 'react-icons/fi'
 import '../styles/Navbar.css'
 
 export default function Navbar() {
