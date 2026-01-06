@@ -2,7 +2,7 @@ name: Deploy Vite site to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # or main-prod if that's your primary branch
+    branches: [ main-prod ]   # or main-prod if that's your primary branch
   workflow_dispatch:
 
 permissions:
