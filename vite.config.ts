@@ -4,5 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/boubinmj.github.io/',
+  // User site: hosted at https://boubinmj.github.io/
+  // base defaults to '/', so you can either omit it or write:
+  // base: '/',
 })
