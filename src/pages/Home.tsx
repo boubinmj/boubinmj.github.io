@@ -18,7 +18,6 @@ export default function Home() {
             <h2>Skills</h2>
             <h3>Languages</h3>
             <ul>
-              <li><b>Languages</b></li>
               <li>Python (Flask, FastAPI, Django)</li>
               <li>Java (Spring)</li>
               <li>Javascript (Node.js)</li>
