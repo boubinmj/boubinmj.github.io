@@ -59,6 +59,29 @@ body {
   margin-bottom: 0;
 }
 
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.skills-column h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.skills-column ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.skills-column li {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
 /* Publications Page */
 .publications-grid {
   display: grid;
@@ -322,5 +345,9 @@ body {
 
   .job-dates {
     text-align: left;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
   }
 }
