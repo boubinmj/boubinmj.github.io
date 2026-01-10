@@ -38,7 +38,7 @@ export default function Home() {
         </div>
         <div className="home-headshot">
           <img 
-            src="boubinmj.github.io/media/headshot.jpeg" 
+            src="media/headshot.jpeg" 
             alt="Headshot" 
             className="headshot-img"
           />
