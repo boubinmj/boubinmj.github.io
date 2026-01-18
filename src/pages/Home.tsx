@@ -20,31 +20,7 @@ export default function Home() {
               In my time working in web development, I have become an expert in leading cross-functional teams, defining goals for robust projects, and implementing best software development practices to enhance performance and maintainability of backend services. 
               I am currently seeking new opportunities to contribute projects that utilize distributed systems technologies.
             </p>
-            <h2>Skills</h2>
-            <div className="skills-container">
-              <div className="skills-column">
-                <h3>Languages</h3>
-                <ul>
-                  <li>Python (Flask, FastAPI, Django)</li>
-                  <li>Java (Spring)</li>
-                  <li>Javascript (Node.js)</li>
-                  <li>Typescript</li>
-                  <li>SQL (PostgreSQL)</li>
-                  <li>MongoDB</li>
-                </ul>
-              </div>
-              <div className="skills-column">
-                <h3>Technologies</h3>
-                <ul>
-                  <li>Cloud (GCP, AWS)</li>
-                  <li>CI/CD (Github Actions)</li>
-                  <li>Kubernetes</li>
-                  <li>Docker</li>
-                  <li>Hadoop</li>
-                  <li>Spark</li>
-                </ul>
-              </div>
-            </div>
+            
           </div>
         </div>
         <div className="home-headshot">

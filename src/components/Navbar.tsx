@@ -6,11 +6,11 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo">
+        <Link to="/blog" className="navbar-logo">
           <FiCoffee size={32} />
         </Link>
         <ul className="nav-menu">
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/">My Story</Link></li>
           <li><Link to="/resume">Resume</Link></li>
           <li><Link to="/publications">Publications</Link></li>
           <li><Link to="/projects">Projects</Link></li>
