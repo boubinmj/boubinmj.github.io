@@ -6,6 +6,9 @@ import Resume from './pages/Resume'
 import Publications from './pages/Publications'
 import Projects from './pages/Projects'
 import Blog from './pages/Blog'
+import IntranetSystemOfRecord from './pages/IntranetSystemOfRecord'
+import BlogPost2 from './pages/BlogPost2'
+import BlogPost3 from './pages/BlogPost3'
 import './App.css'
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
           <Route path="/publications" element={<Publications />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/intranet-as-a-system-of-record" element={<IntranetSystemOfRecord />} />
+          <Route path="/blog/building-better-systems" element={<BlogPost2 />} />
+          <Route path="/blog/lessons-from-production" element={<BlogPost3 />} />
         </Routes>
       </main>
       <Footer />
