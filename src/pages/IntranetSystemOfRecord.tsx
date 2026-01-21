@@ -34,7 +34,7 @@ export default function Intranet() {
           associated with those organizations. Engagements form the historical ledger of every
           interaction over time, anchoring the system as an auditable record rather than a transient
           communication log. Opportunities provide a structured way to track forward-looking
-          initiatives tied to an organization—such as partnerships, funding efforts, or strategic
+          initiatives tied to an organization such as partnerships, funding efforts, or strategic
           collaborations. Modeled relationally, these tables establish a clean, durable backbone
           that supports querying, reporting, and institutional memory without unnecessary abstraction.
         </p>
@@ -153,7 +153,7 @@ export default function Intranet() {
           />
         </p>
 
-        <h3>Amazon Route 53 — DNS &amp; Entry Point</h3>
+        <h3>Amazon Route 53 - DNS &amp; Entry Point</h3>
         <p>
           Route 53 acts as the authoritative DNS provider for the application domain. It resolves
           user requests and directs traffic to CloudFront and the load balancer. In an intranet
@@ -161,21 +161,21 @@ export default function Intranet() {
           so the application is only reachable by authorized staff networks.
         </p>
 
-        <h3>Amazon CloudFront — Secure Edge Layer</h3>
+        <h3>Amazon CloudFront - Secure Edge Layer</h3>
         <p>
           CloudFront sits at the edge and serves as the public-facing gateway to the intranet
           frontend and static assets. It caches UI bundles and media from S3, reduces latency, and
           provides an additional security boundary before traffic ever reaches application compute.
         </p>
 
-        <h3>Elastic Load Balancing — Traffic Distribution</h3>
+        <h3>Elastic Load Balancing - Traffic Distribution</h3>
         <p>
           The load balancer routes incoming application traffic from CloudFront to containerized
           backend services running on ECS/Fargate. It provides a stable endpoint and automatically
           distributes requests across healthy containers.
         </p>
 
-        <h3>ECS + AWS Fargate — Application Compute</h3>
+        <h3>ECS + AWS Fargate - Application Compute</h3>
         <p>
           The backend application runs as containerized services on ECS using Fargate. This allows
           the organization to deploy standard web services without managing servers.
@@ -200,7 +200,7 @@ export default function Intranet() {
           This keeps compute isolated, replaceable, and easy to update.
         </p>
 
-        <h3>RDS (Postgres) — System of Record Database</h3>
+        <h3>RDS (Postgres) - System of Record Database</h3>
         <p>
           RDS with Postgres is the primary structured data store. It holds normalized relational
           tables representing organizations, people, engagements, and opportunities.
@@ -267,19 +267,14 @@ export default function Intranet() {
           administrative configuration.
         </p>
 
-        <p>
-          <img
-            src="LINK_TO_IMAGE_FRONTEND_SCREENS"
-            alt="Frontend screens montage (placeholder link)"
-          />
-        </p>
+        
 
         <h4>Organization Profile</h4>
         <p>
           Each organization has a dedicated profile page that acts as the canonical timeline for
           the relationship. This view aggregates every engagement in chronological order, displays
           associated people, and surfaces active opportunities. The org page is the primary unit of
-          institutional memory — a single place where any staff member can instantly understand the
+          institutional memory: a single place where any staff member can instantly understand the
           full history and current state of the relationship.
         </p>
 
@@ -319,12 +314,12 @@ export default function Intranet() {
         <p>
           Building an internal system of record for organizational relationships is far less about
           software features than it is about architectural discipline. When organizations reduce the
-          problem to its essentials—clear relational entities, a lightweight application layer, fast
-          engagement capture, and a stable cloud infrastructure—they gain something far more valuable
+          problem to its essentials: clear relational entities, a lightweight application layer, fast
+          engagement capture, and a stable cloud infrastructure, they gain something far more valuable
           than a tool: they create durable institutional memory. Every interaction becomes
           structured, searchable, and preserved in a system the organization fully owns. By relying
-          on standard components—Postgres, containerized services, object storage, and a focused
-          frontend—mid-sized teams can deploy a reliable platform that is simpler to maintain, easier
+          on standard components such as Postgres, containerized services, object storage, and a focused
+          frontend, mid-sized teams can deploy a reliable platform that is simpler to maintain, easier
           to evolve, and aligned with how people actually work. The result is not just a database or
           an app, but a long-lived foundation that quietly strengthens relationships, continuity, and
           organizational knowledge over time.
