@@ -33,10 +33,10 @@ export default function Resume() {
             <h2>Skills</h2>
             
             <h3>Languages</h3>
-            <p>Python (Flask, FastAPI, Django)<br />Java (Spring)<br />JavaScript (Node.js)<br />TypeScript<br />SQL (PostgreSQL)<br />MongoDB</p>
+            <p>Python (Flask, FastAPI, Django)<br />Go (Golang, Cobra)<br />Java (SpringBoot)<br />TypeScript<br />SQL (PostgreSQL)<br />DynamoDB, MongoDB, Cassandra</p>
 
-            <h3>Tools and Products</h3>
-            <p>Cloud (GCP, AWS)<br />CI/CD (Terraform)<br />Docker<br />Hadoop<br />Spark</p>
+            <h3>Tooling</h3>
+            <p>Cloud (GCP, AWS)<br />CI/CD (Jenkins, Github Actions)<br />Infra (Terraform, AWS CDK)<br />Docker</p>
           </section>
 
           {/* Education */}
@@ -66,10 +66,10 @@ export default function Resume() {
                 <p className="job-dates">Dec 2021 - Present</p>
               </div>
               <ul className="job-details">
-                <li>Manages data pipelines connecting external data services to a local CRM system using a Django web service and PostgreSQL hosted on AWS.</li>
-                <li>Develops and maintains a custom GenAI endpoint for the University's public website using a FastAPI web framework, Gemini-1.5-Pro API, Google Cloud Platform, Streamlit and SLLean Vector Store.</li>
-                <li>Leads a technical debt clean up initiative that has resulted in a migration saving the organization $100K annually.</li>
-                <li>Supervises 4 junior software developers as their hiring manager.</li>
+                <li>Architected and owned the Wagner Engagement Data Platform, an internal orchestration layer that normalizes event and program data across upstream sources.</li>
+                <li>Replaced manual/vendor workflows with an event-driven ingestion pipeline, introducing schema-versioning, validation checks, and run-books, reducing data defects and incident recovery time.</li>
+                <li>Introduced change-management and dev ops best practices to preventing mis-configured workflows from impacting production data integrity.</li>
+                <li>Designed data contracts and lifecycle rules between Salesforce and downstream analytics systems, eliminating ambiguity around ownership, SLAs, and failure-handling.</li>
               </ul>
             </div>
 
